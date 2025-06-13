@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Cleuma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f8f8fc; color: #333; line-height: 1.6; }
+    header { background: #5a3cc4; color: white; padding: 20px; text-align: center; }
+    header nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }.container { max-width: 1000px; margin: auto; padding: 20px; }
+
+.perfil { text-align: center; padding: 40px 20px; }
+.perfil img { border-radius: 50%; width: 150px; height: 150px; }
+.perfil h1 { font-size: 2em; margin-top: 20px; color: #5a3cc4; }
+.perfil p { margin-top: 10px; }
+.perfil .btn { background: #5a3cc4; color: white; padding: 10px 20px; margin-top: 20px; display: inline-block; border-radius: 5px; text-decoration: none; }
+
+section { margin-top: 60px; }
+h2 { color: #5a3cc4; margin-bottom: 20px; }
+
+.habilidades, .projetos { display: flex; flex-wrap: wrap; gap: 20px; }
+.card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); flex: 1 1 45%; }
+
+.barra { background: #eee; border-radius: 20px; overflow: hidden; height: 10px; margin-top: 5px; }
+.nivel { height: 100%; background: #7c4dff; }
+
+.projeto { text-align: center; padding: 10px; }
+.projeto h3 { margin: 10px 0; }
+.projeto p { font-size: 0.9em; color: #555; }
+.projeto a { display: inline-block; background: #5a3cc4; color: white; padding: 8px 15px; border-radius: 5px; margin-top: 10px; text-decoration: none; }
+
+footer { background: #5a3cc4; color: white; text-align: center; padding: 30px 20px; margin-top: 60px; }
+footer .contato { background: white; color: #333; border-radius: 10px; padding: 20px; display: inline-block; }
+
+  </style>
+</head>
+<body>  <header>
+    <h1>Cleuma</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>  <div class="container">
+    <section class="perfil">
+      <img src="https://via.placeholder.com/150" alt="Foto da Cleuma">
+      <h1>Olá, eu sou <strong>Cleuma</strong></h1>
+      <p>Estou no terceiro ano do ensino médio e atualmente fazendo curso de programação. Já conclui cursos de administração, informática básica e formação humana no Educandário.</p>
+      <a href="#projetos" class="btn">Ver meus projetos</a>
+    </section><section id="sobre">
+  <h2>Sobre Mim</h2>
+  <p>Olá! Meu nome é Cleuma e estou cursando o terceiro ano do ensino médio. Estou sempre buscando aprender coisas novas para meu desenvolvimento pessoal e profissional.</p>
+  <p>Atualmente, estou fazendo um curso de programação para expandir meus conhecimentos. Além disso, já conclui cursos de administração, informática básica e formação humana no Educandário.</p>
+  <p>Estou em busca de oportunidades para aplicar meus conhecimentos e continuar crescendo profissionalmente. Tenho interesse em continuar meus estudos e me desenvolver em diversas áreas.</p>
+</section>
+
+<section id="habilidades">
+  <h2>Minhas Habilidades</h2>
+  <div class="habilidades">
+    <div class="card">
+      <h3>Habilidades Acadêmicas</h3>
+      <p>Informática Básica</p>
+      <div class="barra"><div class="nivel" style="width: 80%"></div></div>
+      <p>Administração</p>
+      <div class="barra"><div class="nivel" style="width: 60%"></div></div>
+      <p>Matemática</p>
+      <div class="barra"><div class="nivel" style="width: 50%"></div></div>
+    </div>
+    <div class="card">
+      <h3>Habilidades Pessoais</h3>
+      <p>Trabalho em Equipe</p>
+      <div class="barra"><div class="nivel" style="width: 70%"></div></div>
+      <p>Comunicação</p>
+      <div class="barra"><div class="nivel" style="width: 65%"></div></div>
+      <p>Organização</p>
+      <div class="barra"><div class="nivel" style="width: 60%"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <h2>Meus Projetos</h2>
+  <div class="projetos">
+    <div class="card projeto">
+      <h3>Jogo da Memória</h3>
+      <p>Um jogo divertido para testar sua memória. Encontre todos os pares de cartas para vencer.</p>
+      <a href="#">Jogar Agora</a>
+    </div>
+    <div class="card projeto">
+      <h3>Quiz de Conhecimentos</h3>
+      <p>Teste seus conhecimentos gerais com este quiz interativo.</p>
+      <a href="#">Jogar Agora</a>
+    </div>
+    <div class="card projeto">
+      <h3>Jogo da Velha</h3>
+      <p>O clássico jogo da velha para jogar contra o computador.</p>
+      <a href="#">Jogar Agora</a>
+    </div>
+    <div class="card projeto">
+      <h3>Jogo da Forca</h3>
+      <p>Tente adivinhar a palavra oculta antes que o boneco seja enforcado.</p>
+      <a href="#">Jogar Agora</a>
+    </div>
+  </div>
+</section>
+
+  </div>  <footer id="contato">
+    <h2>Entre em Contato</h2>
+    <div class="contato">
+      <p>📧 exemplo@email.com</p>
+      <p>📞 (00) 12345-6789</p>
+      <p>📍 Sua Cidade, Estado</p>
+    </div>
+  </footer></body>
+</html>
